@@ -621,6 +621,32 @@ tbody tr:nth-child(even) {
   object-fit: cover;
 }
 
+.gallery-empty {
+  text-align: center;
+  padding: 64px 24px;
+  border: 2px dashed var(--borda);
+  border-radius: var(--raio);
+  color: var(--cinza-texto);
+}
+
+.gallery-empty svg {
+  color: var(--azul-claro);
+  margin: 0 auto 16px;
+}
+
+.gallery-empty p {
+  margin: 0;
+  font-weight: 600;
+  color: var(--navy-2);
+}
+
+.gallery-empty__hint {
+  font-weight: 400 !important;
+  font-size: 0.9rem;
+  color: var(--cinza-texto) !important;
+  margin-top: 6px !important;
+}
+
 /* ---------- Mapa / Localização ---------- */
 
 .map-wrapper {
